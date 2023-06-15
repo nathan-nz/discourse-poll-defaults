@@ -2,8 +2,8 @@
 api.modifyClass("controller:poll-ui-builder", {
   onShow() {
     this._super(...arguments);
-    this.set('publicPoll', true);
-    this.set('showAdvanced', true);
+    if (settings.Public) {this.set('publicPoll', true)};
+    if (settings.Advanced) {this.set('showAdvanced', true)};
   }
 });
 </script>
