@@ -1,5 +1,5 @@
 Public:
-  description: "Show who voted by default ('Public')"
+  description: "Show who voted by default"
   type: bool
   default: true
 
