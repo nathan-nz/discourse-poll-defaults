@@ -1,9 +1,9 @@
 Public:
   description: "Show who voted by default ('Public')"
   type: bool
-  default: 'true'
+  default: true
 
 Advanced: 
   description: "Have advanced options open by default"
   type: bool
-  default: 'true'
+  default: true
