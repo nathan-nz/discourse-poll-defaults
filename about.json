@@ -1,0 +1,7 @@
+{
+  "name": "Discourse Poll Defaults",
+  "component": true,
+  "license_url": "https://github.com/nathan-nz/discourse-poll-defaults/blob/main/LICENSE",
+  "about_url": "https://github.com/nathan-nz/discourse-poll-defaults/blob/main/README.md",
+  "authors": "nathan-nz"
+}
