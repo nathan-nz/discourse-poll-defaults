@@ -1,0 +1,9 @@
+<script type="text/discourse-plugin" version="0.8">
+api.modifyClass("controller:poll-ui-builder", {
+  onShow() {
+    this._super(...arguments);
+    this.set('publicPoll', true);
+    this.set('showAdvanced', true);
+  }
+});
+</script>
